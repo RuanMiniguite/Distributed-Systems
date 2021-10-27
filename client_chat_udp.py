@@ -2,20 +2,17 @@ import socket
 import sys
 import _thread
 
-HOST = sys.argv[1]  # Endereco IP do S
-PORT = 5000  # Porta que o Servidor esta
+HOST = sys.argv[1] 
+PORT = 5000
 
 
 def server(udp):
     print(f"Starting UDP Server on port {PORT}")
-    udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    orig = (HOST, PORT)
-    udp.bind(orig)
     while True:
         msg, cliente = udp.recvfrom(1024)
         msg_decoded = msg.decode('utf-8')
-        print(f"{cliente} {msg_decoded}")
-
+        print(f"\t {cliente} | {msg_decoded}")
+        
 
 def client():
     udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -25,14 +22,16 @@ def client():
     _thread.start_new_thread(server, (udp,))
     print("Type q to exit")
     message = None
+    
+    from time import sleep
+    sleep(0.2)
+
     while message != "q":
         if sys.version_info.major == 3:
             message = input("-> ")
         else:
             message = raw_input("-> ")
         udp.sendto(message.encode("utf-8"), dest)
-        # data = udp.recv(1024).decode("utf-8")
-        # print("Received from server: " + data)
     udp.close()
 
 
