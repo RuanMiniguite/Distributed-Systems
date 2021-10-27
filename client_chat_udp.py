@@ -11,8 +11,8 @@ def server(udp):
     while True:
         msg, cliente = udp.recvfrom(1024)
         msg_decoded = msg.decode('utf-8')
-        print(f"{cliente} {msg_decoded}")
-
+        print(f"\t {cliente} | {msg_decoded}")
+        
 
 def client():
     udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -22,6 +22,10 @@ def client():
     _thread.start_new_thread(server, (udp,))
     print("Type q to exit")
     message = None
+    
+    from time import sleep
+    sleep(0.2)
+
     while message != "q":
         if sys.version_info.major == 3:
             message = input("-> ")
