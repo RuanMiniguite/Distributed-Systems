@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <img src="https://media.discordapp.net/attachments/903037654403276800/903037673080508506/Tela_01.jpg?width=705&height=386" width=90%>
+  <img src="https://cdn.discordapp.com/attachments/903037654403276800/903037673080508506/Tela_01.jpg" width=90%>
 </div>
 
 ---
