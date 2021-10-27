@@ -19,7 +19,7 @@ Topologia:
 - 1 Swites
 - 1 Servidor
 
-Utlizando protocolco UDP para comunicação entre 3 hosts, permitindo envio e recebimento de mensagem.
+Utilizando protocolo UDP para comunicação entre 3 hosts, permitindo envio e recebimento de mensagem.
 
 <br>
 
