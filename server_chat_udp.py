@@ -1,5 +1,9 @@
 import socket
+import sys
 
+from client_chat_udp import HOST
+
+HOST = "10.0.1.10"
 PORT = 5000  # Porta que o Servidor esta
 
 

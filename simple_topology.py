@@ -12,6 +12,7 @@ def topology(remote_controller):
 
     h1 = net.addHost("h1", ip="10.0.1.1", mac="00:00:00:00:01:01")
     h2 = net.addHost("h2", ip="10.0.1.2", mac="00:00:00:00:01:02")
+    h3 = net.addHost("h3", ip="10.0.1.3", mac="00:00:00:00:01:03")
     server1 = net.addHost("server1", ip="10.0.1.10", mac="00:00:00:00:01:0a")
 
     info("*** Adding P4Switches (core)\n")
@@ -22,6 +23,7 @@ def topology(remote_controller):
 
     net.addLink(h1, switch1, bw=1000)
     net.addLink(h2, switch1, bw=1000)
+    net.addLink(h3, switch1, bw=1000)
     net.addLink(server1, switch1, bw=1000)
 
     info("*** Starting network\n")
