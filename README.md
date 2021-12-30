@@ -146,7 +146,7 @@ Ruan Pezzin Miniguite <br> ruanminiguitecontato@gmail.com
 <!-- ============== LINKs ============== -->
 <!-- Alterar link -->
 [Site-link]: https://github.com/RuanMiniguite/Python-Chat-udp
-[GitHub License-link]: https://github.com/RuanMiniguite/Template-Readme/blob/fe381e528da59c829814c405ef7287b10a1a15ab/LICENSE
+[GitHub License-link]: https://github.com/RuanMiniguite/Python-Chat-udp/blob/b24ffd1a6fe58e17377b721be11424061b110b13/LICENSE
 
 
 <!-- Alterar caminho para repositorio [Template-Readme] -->
