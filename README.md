@@ -117,10 +117,10 @@ Git Clone https://github.com/RuanMiniguite/Template-Readme.git
 ```
 ```
 sudo Python3 simple_topology.py
+server1 xterm
 h1 xterm
 h2 xterm
 h3 xterm
-h4 xterm
 ```
 ```
 python3 server_chat_udp.py <IP_Host>
