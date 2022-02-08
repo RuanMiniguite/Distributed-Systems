@@ -26,11 +26,18 @@ def client():
     from time import sleep
     sleep(0.2)
 
+    name = None
+    name = input("Informe nome do Host: ")
+    message = "conectar," + name
+    udp.sendto(message.encode("utf-8"), dest)
+
     while message != "q":
         if sys.version_info.major == 3:
             message = input("-> ")
         else:
             message = raw_input("-> ")
+
+        message = "enviarMensagem," + message
         udp.sendto(message.encode("utf-8"), dest)
     udp.close()
 
