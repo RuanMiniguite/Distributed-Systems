@@ -37,7 +37,7 @@ def client():
         else:
             message = raw_input("-> ")
 
-        message = "enviarMensagem," + message
+        message = "enviarMensagem," + name + "," + message
         udp.sendto(message.encode("utf-8"), dest)
     udp.close()
 
