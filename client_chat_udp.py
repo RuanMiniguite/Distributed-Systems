@@ -11,7 +11,11 @@ def server(udp):
     while True:
         msg, cliente = udp.recvfrom(1024)
         msg_decoded = msg.decode('utf-8')
-        print(f"\t {cliente} | {msg_decoded}")
+        
+        namehost = msg_decoded.split(",")[0]
+        msghost = msg_decoded.split(",")[1]
+
+        print(f"\t" + namehost + " <- " + msghost)
         
 
 def client():

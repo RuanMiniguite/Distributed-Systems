@@ -54,7 +54,7 @@
 ## About the project
 
 <div align="center">
-  <img src="https://media.discordapp.net/attachments/903037654403276800/903037673080508506/Tela_01.jpg?width=877&height=480" width=80%>
+  <img src="https://media.discordapp.net/attachments/903037654403276800/940419979596140584/Print.png?width=1920&height=1080" width=80%>
 <br><br>
 
   <!-- [![Site][Site-shields]][Site-link] -->
