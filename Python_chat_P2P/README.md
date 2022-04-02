@@ -38,7 +38,7 @@
 Install Python3
 ```
 ```
-Git Clone https://github.com/RuanMiniguite/Distributed-systems.git
+Git Clone https://github.com/RuanMiniguite/Distributed-Systems.git
 ```
 ```
 sudo Python3 simple_topology.py
