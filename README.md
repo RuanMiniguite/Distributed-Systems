@@ -49,6 +49,9 @@
 
 <p>works developed in the discipline of distributed systems</p>
 
+- [Chat P2P](https://github.com/RuanMiniguite/Distributed-systems/tree/main/Python_chat_P2P)
+- [Chat TCP](https://github.com/RuanMiniguite/Distributed-systems/tree/main/Python_chat_TCP)
+- [Chat UDP](https://github.com/RuanMiniguite/Distributed-systems/tree/main/Python_chat_UDP)
 
 
 <!-- ============== LANGUAGE ============== -->
