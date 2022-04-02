@@ -38,7 +38,7 @@
 Install Python3
 ```
 ```
-Git Clone https://github.com/RuanMiniguite/Python-Serv-tcp.git
+Git Clone https://github.com/RuanMiniguite/Distributed-systems.git
 ```
 ```
 sudo Python3 simple_topology.py
