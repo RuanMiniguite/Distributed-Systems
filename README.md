@@ -5,7 +5,7 @@
 
 <!-- ============== HEADER ============== -->
 <div align="center" id="header">
-  <a href="https://github.com/RuanMiniguite"><img src="/assets/ifes02.png" alt="Logo" width="450"></a>
+   <a href="https://github.com/RuanMiniguite"><img src="/assets/Ifes02.png" alt="Logo" width="450"></a>
   
   <h3>Distributed System</h3>
   <p>Works developed</p>
