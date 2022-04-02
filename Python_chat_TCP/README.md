@@ -1,6 +1,6 @@
 <!-- ============== HEADER ============== -->
 <div align="center" id="header">
-  <h3>Python Chat TCP</h3>
+  <h2>Python Chat TCP</h2>
   <p>Chat using TCP protocol</p>
 </div>
 

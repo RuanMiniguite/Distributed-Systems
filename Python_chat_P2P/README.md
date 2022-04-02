@@ -1,6 +1,6 @@
 <!-- ============== HEADER ============== -->
 <div align="center" id="header">
-  <h3>Python Chat P2P</h3>
+  <h2>Python Chat P2P</h2>
   <p>P2P network using Python language</p>
 </div>
 
