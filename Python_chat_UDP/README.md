@@ -10,12 +10,9 @@
 
 <div align="center">
   <img src="/assets/Print_01.jpg" width=90%>
-</div>
+</div><br>
 
-<br>
-
-<p>Using UDP protocol for communication between 3 hosts, allowing sending and receiving messages.</p><br>
-
+<p>Using UDP protocol for communication between 3 hosts, allowing sending and receiving messages.</p>
 
 #### Topologia
 
@@ -23,7 +20,7 @@
 > 1 Swites
 > 1 Servidor
 
-
+<br>
 
 <!-- ============== LANGUAGE ============== -->
 ## Language and tools
@@ -58,5 +55,4 @@ python3 server_chat_udp.py <IP_Host>
 python3 client_chat_udp.py <IP_Host>
 ```
 
-<br>
-<p align="right">(<a href="#header">back to top</a>)</p>
+<br><p align="right">(<a href="#header">back to top</a>)</p>
