@@ -67,7 +67,7 @@
 ## Installation
 
 ```
-Git Clone https://github.com/RuanMiniguite/Distributed-systems.git
+Git Clone https://github.com/RuanMiniguite/Distributed-Systems.git
 ```
 
 
